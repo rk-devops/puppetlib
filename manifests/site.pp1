@@ -1,0 +1,20 @@
+node 'wslinux01.rkad.com' {
+                                           package { 'httpd' :
+                                           ensure => installed,
+                                                           }
+
+                        service {'httpd': # Name of the service
+                        ensure => running, # Start the apache service
+                        enable => true, # Start on system boot
+                                      }
+
+                 user { "webadmin":  # User Name
+                 ensure => "present",
+                 shell => '/bin/bash', # Working Shell
+                 home => '/home/webadmin', # Path of home directory
+                 managehome => true, # Create a home directory
+                       }
+
+                         include httpd_node # This should match with the name of module directory 
+}
+
