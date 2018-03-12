@@ -1,0 +1,14 @@
+{
+  "name": "rkbsme-ntp",
+  "version": "0.1.0",
+  "author": "rkbsme",
+  "summary": "to sync ntp config",
+  "license": "Apache 2.0",
+  "source": "rkbsme",
+  "project_page": null,
+  "issues_url": "rkbsme@gmail.com",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}
+

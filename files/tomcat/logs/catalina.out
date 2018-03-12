@@ -1,0 +1,1479 @@
+OpenJDK 64-Bit Server VM warning: If the number of processors is expected to increase from one, then you should configure the number of parallel GC threads appropriately using -XX:ParallelGCThreads=N
+10-Mar-2018 09:18:04.225 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+10-Mar-2018 09:18:04.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+10-Mar-2018 09:18:04.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+10-Mar-2018 09:18:04.226 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+10-Mar-2018 09:18:04.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-693.17.1.el7.x86_64
+10-Mar-2018 09:18:04.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Mar-2018 09:18:04.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64/jre
+10-Mar-2018 09:18:04.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b14
+10-Mar-2018 09:18:04.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Mar-2018 09:18:04.227 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat
+10-Mar-2018 09:18:04.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat
+10-Mar-2018 09:18:04.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/conf/logging.properties
+10-Mar-2018 09:18:04.228 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Mar-2018 09:18:04.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+10-Mar-2018 09:18:04.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.egd=file:/dev/./urandom
+10-Mar-2018 09:18:04.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms512M
+10-Mar-2018 09:18:04.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024M
+10-Mar-2018 09:18:04.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseParallelGC
+10-Mar-2018 09:18:04.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/opt/tomcat/endorsed
+10-Mar-2018 09:18:04.229 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat
+10-Mar-2018 09:18:04.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat
+10-Mar-2018 09:18:04.256 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/temp
+10-Mar-2018 09:18:04.257 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+10-Mar-2018 09:18:04.423 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Mar-2018 09:18:04.629 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Mar-2018 09:18:04.634 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Mar-2018 09:18:04.635 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Mar-2018 09:18:04.637 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1301 ms
+10-Mar-2018 09:18:04.657 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+10-Mar-2018 09:18:04.657 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+10-Mar-2018 09:18:04.690 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/ROOT
+10-Mar-2018 09:18:05.296 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/ROOT has finished in 605 ms
+10-Mar-2018 09:18:05.296 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/docs
+10-Mar-2018 09:18:05.346 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/docs has finished in 50 ms
+10-Mar-2018 09:18:05.346 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/examples
+10-Mar-2018 09:18:06.010 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/examples has finished in 664 ms
+10-Mar-2018 09:18:06.010 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/host-manager
+10-Mar-2018 09:18:06.065 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/host-manager has finished in 55 ms
+10-Mar-2018 09:18:06.065 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/manager
+10-Mar-2018 09:18:06.115 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/manager has finished in 50 ms
+10-Mar-2018 09:18:06.133 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Mar-2018 09:18:06.165 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Mar-2018 09:18:06.170 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1533 ms
+10-Mar-2018 09:25:16.425 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Mar-2018 09:25:16.480 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Mar-2018 09:25:16.531 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+10-Mar-2018 09:25:16.582 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Mar-2018 09:25:16.584 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Mar-2018 09:25:16.585 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Mar-2018 09:25:16.586 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+OpenJDK 64-Bit Server VM warning: If the number of processors is expected to increase from one, then you should configure the number of parallel GC threads appropriately using -XX:ParallelGCThreads=N
+10-Mar-2018 09:25:17.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+10-Mar-2018 09:25:17.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+10-Mar-2018 09:25:17.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+10-Mar-2018 09:25:17.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+10-Mar-2018 09:25:17.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-693.17.1.el7.x86_64
+10-Mar-2018 09:25:17.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Mar-2018 09:25:17.701 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64/jre
+10-Mar-2018 09:25:17.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b14
+10-Mar-2018 09:25:17.702 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Mar-2018 09:25:17.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat
+10-Mar-2018 09:25:17.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat
+10-Mar-2018 09:25:17.728 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/conf/logging.properties
+10-Mar-2018 09:25:17.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Mar-2018 09:25:17.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+10-Mar-2018 09:25:17.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.egd=file:/dev/./urandom
+10-Mar-2018 09:25:17.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms512M
+10-Mar-2018 09:25:17.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024M
+10-Mar-2018 09:25:17.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseParallelGC
+10-Mar-2018 09:25:17.729 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/opt/tomcat/endorsed
+10-Mar-2018 09:25:17.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat
+10-Mar-2018 09:25:17.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat
+10-Mar-2018 09:25:17.730 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/temp
+10-Mar-2018 09:25:17.730 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+10-Mar-2018 09:25:17.944 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Mar-2018 09:25:17.962 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Mar-2018 09:25:17.970 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Mar-2018 09:25:17.971 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Mar-2018 09:25:17.980 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1016 ms
+10-Mar-2018 09:25:18.014 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+10-Mar-2018 09:25:18.014 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+10-Mar-2018 09:25:18.029 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/ROOT
+10-Mar-2018 09:25:18.542 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/ROOT has finished in 512 ms
+10-Mar-2018 09:25:18.542 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/docs
+10-Mar-2018 09:25:18.590 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/docs has finished in 48 ms
+10-Mar-2018 09:25:18.590 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/examples
+10-Mar-2018 09:25:19.113 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/examples has finished in 523 ms
+10-Mar-2018 09:25:19.113 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/host-manager
+10-Mar-2018 09:25:19.179 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/host-manager has finished in 66 ms
+10-Mar-2018 09:25:19.179 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/manager
+10-Mar-2018 09:25:19.230 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/manager has finished in 51 ms
+10-Mar-2018 09:25:19.246 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Mar-2018 09:25:19.279 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Mar-2018 09:25:19.302 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1321 ms
+10-Mar-2018 09:27:19.561 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+10-Mar-2018 09:27:19.617 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+10-Mar-2018 09:27:19.669 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+10-Mar-2018 09:27:19.721 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+10-Mar-2018 09:27:19.722 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+10-Mar-2018 09:27:19.723 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+10-Mar-2018 09:27:19.724 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+OpenJDK 64-Bit Server VM warning: If the number of processors is expected to increase from one, then you should configure the number of parallel GC threads appropriately using -XX:ParallelGCThreads=N
+10-Mar-2018 09:27:20.783 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+10-Mar-2018 09:27:20.785 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+10-Mar-2018 09:27:20.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+10-Mar-2018 09:27:20.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+10-Mar-2018 09:27:20.786 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-693.17.1.el7.x86_64
+10-Mar-2018 09:27:20.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+10-Mar-2018 09:27:20.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64/jre
+10-Mar-2018 09:27:20.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b14
+10-Mar-2018 09:27:20.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+10-Mar-2018 09:27:20.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat
+10-Mar-2018 09:27:20.787 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat
+10-Mar-2018 09:27:20.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/conf/logging.properties
+10-Mar-2018 09:27:20.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+10-Mar-2018 09:27:20.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+10-Mar-2018 09:27:20.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.egd=file:/dev/./urandom
+10-Mar-2018 09:27:20.788 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms512M
+10-Mar-2018 09:27:20.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024M
+10-Mar-2018 09:27:20.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseParallelGC
+10-Mar-2018 09:27:20.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/opt/tomcat/endorsed
+10-Mar-2018 09:27:20.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat
+10-Mar-2018 09:27:20.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat
+10-Mar-2018 09:27:20.789 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/temp
+10-Mar-2018 09:27:20.789 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+10-Mar-2018 09:27:21.080 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+10-Mar-2018 09:27:21.120 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Mar-2018 09:27:21.136 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+10-Mar-2018 09:27:21.138 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+10-Mar-2018 09:27:21.150 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1149 ms
+10-Mar-2018 09:27:21.191 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+10-Mar-2018 09:27:21.191 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+10-Mar-2018 09:27:21.240 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/ROOT
+10-Mar-2018 09:27:21.841 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/ROOT has finished in 600 ms
+10-Mar-2018 09:27:21.841 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/docs
+10-Mar-2018 09:27:21.897 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/docs has finished in 56 ms
+10-Mar-2018 09:27:21.898 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/examples
+10-Mar-2018 09:27:22.474 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/examples has finished in 577 ms
+10-Mar-2018 09:27:22.474 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/host-manager
+10-Mar-2018 09:27:22.538 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/host-manager has finished in 64 ms
+10-Mar-2018 09:27:22.539 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/manager
+10-Mar-2018 09:27:22.596 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/manager has finished in 58 ms
+10-Mar-2018 09:27:22.611 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+10-Mar-2018 09:27:22.624 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+10-Mar-2018 09:27:22.626 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1475 ms
+11-Mar-2018 06:37:49.961 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Mar-2018 06:37:50.016 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Mar-2018 06:37:50.067 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+11-Mar-2018 06:37:50.148 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Mar-2018 06:37:50.150 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Mar-2018 06:37:50.151 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Mar-2018 06:37:50.156 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+OpenJDK 64-Bit Server VM warning: If the number of processors is expected to increase from one, then you should configure the number of parallel GC threads appropriately using -XX:ParallelGCThreads=N
+11-Mar-2018 16:07:51.341 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+11-Mar-2018 16:07:51.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+11-Mar-2018 16:07:51.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+11-Mar-2018 16:07:51.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Mar-2018 16:07:51.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-693.17.1.el7.x86_64
+11-Mar-2018 16:07:51.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Mar-2018 16:07:51.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64/jre
+11-Mar-2018 16:07:51.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b14
+11-Mar-2018 16:07:51.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Mar-2018 16:07:51.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat
+11-Mar-2018 16:07:51.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat
+11-Mar-2018 16:07:51.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/conf/logging.properties
+11-Mar-2018 16:07:51.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Mar-2018 16:07:51.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+11-Mar-2018 16:07:51.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.egd=file:/dev/./urandom
+11-Mar-2018 16:07:51.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms512M
+11-Mar-2018 16:07:51.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024M
+11-Mar-2018 16:07:51.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseParallelGC
+11-Mar-2018 16:07:51.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/opt/tomcat/endorsed
+11-Mar-2018 16:07:51.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat
+11-Mar-2018 16:07:51.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat
+11-Mar-2018 16:07:51.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/temp
+11-Mar-2018 16:07:51.344 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11-Mar-2018 16:07:51.577 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Mar-2018 16:07:51.610 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Mar-2018 16:07:51.621 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Mar-2018 16:07:51.623 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Mar-2018 16:07:51.624 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1053 ms
+11-Mar-2018 16:07:51.680 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Mar-2018 16:07:51.680 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+OpenJDK 64-Bit Server VM warning: If the number of processors is expected to increase from one, then you should configure the number of parallel GC threads appropriately using -XX:ParallelGCThreads=N
+11-Mar-2018 16:07:53.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+11-Mar-2018 16:07:53.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+11-Mar-2018 16:07:53.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+11-Mar-2018 16:07:53.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Mar-2018 16:07:53.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-693.17.1.el7.x86_64
+11-Mar-2018 16:07:53.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Mar-2018 16:07:53.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64/jre
+11-Mar-2018 16:07:53.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b14
+11-Mar-2018 16:07:53.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Mar-2018 16:07:53.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat
+11-Mar-2018 16:07:53.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat
+11-Mar-2018 16:07:53.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/conf/logging.properties
+11-Mar-2018 16:07:53.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Mar-2018 16:07:53.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+11-Mar-2018 16:07:53.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.egd=file:/dev/./urandom
+11-Mar-2018 16:07:53.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms512M
+11-Mar-2018 16:07:53.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024M
+11-Mar-2018 16:07:53.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseParallelGC
+11-Mar-2018 16:07:53.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/opt/tomcat/endorsed
+11-Mar-2018 16:07:53.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat
+11-Mar-2018 16:07:53.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat
+11-Mar-2018 16:07:53.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/temp
+11-Mar-2018 16:07:53.059 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11-Mar-2018 16:07:53.297 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Mar-2018 16:07:53.322 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Mar-2018 16:07:53.338 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Mar-2018 16:07:53.339 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Mar-2018 16:07:53.351 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1065 ms
+11-Mar-2018 16:07:53.397 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Mar-2018 16:07:53.397 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+11-Mar-2018 16:07:53.412 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/ROOT
+11-Mar-2018 16:07:53.962 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/ROOT has finished in 549 ms
+11-Mar-2018 16:07:53.962 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/docs
+11-Mar-2018 16:07:53.990 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/docs has finished in 28 ms
+11-Mar-2018 16:07:53.990 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/examples
+11-Mar-2018 16:07:54.481 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/examples has finished in 491 ms
+11-Mar-2018 16:07:54.481 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/host-manager
+11-Mar-2018 16:07:54.513 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/host-manager has finished in 32 ms
+11-Mar-2018 16:07:54.513 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/manager
+11-Mar-2018 16:07:54.819 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/manager has finished in 306 ms
+11-Mar-2018 16:07:54.830 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Mar-2018 16:07:54.839 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Mar-2018 16:07:54.840 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1488 ms
+11-Mar-2018 16:11:00.077 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/mywebapp1.war
+11-Mar-2018 16:11:01.285 INFO [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Mar-2018 16:11:01.290 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/mywebapp1.war has finished in 1,213 ms
+Mar 11, 2018 4:11:26 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+11-Mar-2018 16:11:59.141 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+11-Mar-2018 16:11:59.902 INFO [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Mar-2018 16:11:59.905 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 765 ms
+Mar 11, 2018 4:12:29 PM org.apache.catalina.session.StandardSession doWriteObject
+WARNING: Cannot serialize session attribute com.vaadin.server.VaadinSession.com.vaadin.tutorial.addressbook.AddressbookUI$MyUIServlet for session 66F5D01CC51C540641C84BB7A512E9D4
+java.io.NotSerializableException: com.vaadin.tutorial.addressbook.backend.ContactService
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.HashMap.internalWriteEntries(HashMap.java:1790)
+	at java.util.HashMap.writeObject(HashMap.java:1363)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
+	at com.vaadin.server.VaadinSession.writeObject(VaadinSession.java:1447)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1708)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1106)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5470)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.manager.ManagerServlet.undeploy(ManagerServlet.java:1389)
+	at org.apache.catalina.manager.HTMLManagerServlet.undeploy(HTMLManagerServlet.java:626)
+	at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:213)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:136)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1502)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1458)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+11-Mar-2018 16:12:29.868 INFO [http-nio-8080-exec-7] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/mywebapp1]
+11-Mar-2018 16:15:55.417 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+11-Mar-2018 16:15:55.921 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 16:15:56.425 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/examples]
+11-Mar-2018 16:15:56.929 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/host-manager]
+11-Mar-2018 16:15:57.434 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+11-Mar-2018 16:15:57.940 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/docs]
+11-Mar-2018 16:17:07.949 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+11-Mar-2018 16:17:08.670 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 722 ms
+11-Mar-2018 16:17:08.688 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/ROOT
+11-Mar-2018 16:17:08.698 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/ROOT has finished in 11 ms
+11-Mar-2018 16:17:08.698 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/docs
+11-Mar-2018 16:17:08.721 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/docs has finished in 23 ms
+11-Mar-2018 16:17:08.721 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/examples
+11-Mar-2018 16:17:08.946 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/examples has finished in 225 ms
+11-Mar-2018 16:17:08.946 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/host-manager
+11-Mar-2018 16:17:08.973 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/host-manager has finished in 27 ms
+11-Mar-2018 16:17:08.973 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/manager
+11-Mar-2018 16:17:09.013 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/manager has finished in 40 ms
+11-Mar-2018 16:18:18.022 INFO [http-nio-8080-exec-23] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 16:18:18.367 INFO [http-nio-8080-exec-24] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+11-Mar-2018 16:18:19.044 INFO [http-nio-8080-exec-24] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 676 ms
+Mar 11, 2018 4:22:26 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+Mar 11, 2018 4:43:24 PM org.apache.catalina.session.StandardSession doWriteObject
+WARNING: Cannot serialize session attribute com.vaadin.server.VaadinSession.com.vaadin.tutorial.addressbook.AddressbookUI$MyUIServlet for session D5B73891D92108F843578F454DB5F076
+java.io.NotSerializableException: com.vaadin.tutorial.addressbook.backend.ContactService
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.HashMap.internalWriteEntries(HashMap.java:1790)
+	at java.util.HashMap.writeObject(HashMap.java:1363)
+	at sun.reflect.GeneratedMethodAccessor48.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
+	at com.vaadin.server.VaadinSession.writeObject(VaadinSession.java:1447)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1708)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1106)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5470)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.manager.ManagerServlet.undeploy(ManagerServlet.java:1389)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:361)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1502)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1458)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+11-Mar-2018 16:43:24.908 INFO [http-nio-8080-exec-32] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 16:43:25.104 INFO [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+11-Mar-2018 16:43:25.735 INFO [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 631 ms
+Mar 11, 2018 4:43:42 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+Mar 11, 2018 4:45:43 PM org.apache.catalina.session.StandardSession doWriteObject
+WARNING: Cannot serialize session attribute com.vaadin.server.VaadinSession.com.vaadin.tutorial.addressbook.AddressbookUI$MyUIServlet for session B08A2722FA4AC00921FE86225010A255
+java.io.NotSerializableException: com.vaadin.tutorial.addressbook.backend.ContactService
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.HashMap.internalWriteEntries(HashMap.java:1790)
+	at java.util.HashMap.writeObject(HashMap.java:1363)
+	at sun.reflect.GeneratedMethodAccessor48.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
+	at com.vaadin.server.VaadinSession.writeObject(VaadinSession.java:1447)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1708)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1106)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5470)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.manager.ManagerServlet.stop(ManagerServlet.java:1334)
+	at org.apache.catalina.manager.HTMLManagerServlet.stop(HTMLManagerServlet.java:685)
+	at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:219)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:136)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1502)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1458)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+Mar 11, 2018 4:45:49 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+Mar 11, 2018 4:55:13 PM org.apache.catalina.session.StandardSession doWriteObject
+WARNING: Cannot serialize session attribute com.vaadin.server.VaadinSession.com.vaadin.tutorial.addressbook.AddressbookUI$MyUIServlet for session B08A2722FA4AC00921FE86225010A255
+java.io.NotSerializableException: com.vaadin.tutorial.addressbook.backend.ContactService
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.HashMap.internalWriteEntries(HashMap.java:1790)
+	at java.util.HashMap.writeObject(HashMap.java:1363)
+	at sun.reflect.GeneratedMethodAccessor48.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
+	at com.vaadin.server.VaadinSession.writeObject(VaadinSession.java:1447)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1708)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1106)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5470)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.manager.ManagerServlet.undeploy(ManagerServlet.java:1389)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:361)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1502)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1458)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+11-Mar-2018 16:55:14.240 INFO [http-nio-8080-exec-48] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 16:55:14.434 INFO [http-nio-8080-exec-49] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+11-Mar-2018 16:55:15.045 INFO [http-nio-8080-exec-49] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 610 ms
+11-Mar-2018 16:55:34.206 INFO [http-nio-8080-exec-50] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 16:57:18.670 INFO [http-nio-8080-exec-59] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+11-Mar-2018 16:57:19.145 INFO [http-nio-8080-exec-59] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 474 ms
+Mar 11, 2018 4:57:40 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+Mar 11, 2018 5:27:44 PM org.apache.catalina.session.StandardSession doWriteObject
+WARNING: Cannot serialize session attribute com.vaadin.server.VaadinSession.com.vaadin.tutorial.addressbook.AddressbookUI$MyUIServlet for session 6656503BD866E0D30F5E4F408A88AACC
+java.io.NotSerializableException: com.vaadin.tutorial.addressbook.backend.ContactService
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.HashMap.internalWriteEntries(HashMap.java:1790)
+	at java.util.HashMap.writeObject(HashMap.java:1363)
+	at sun.reflect.GeneratedMethodAccessor48.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
+	at com.vaadin.server.VaadinSession.writeObject(VaadinSession.java:1447)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1708)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1106)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5470)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.manager.ManagerServlet.undeploy(ManagerServlet.java:1389)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:361)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1502)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1458)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+11-Mar-2018 17:27:44.740 INFO [http-nio-8080-exec-58] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 17:27:44.863 INFO [http-nio-8080-exec-59] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+11-Mar-2018 17:27:45.516 INFO [http-nio-8080-exec-59] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 652 ms
+Mar 11, 2018 5:28:02 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+11-Mar-2018 17:28:26.142 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/addressbook] has started
+Mar 11, 2018 5:28:26 PM org.apache.catalina.session.StandardSession doWriteObject
+WARNING: Cannot serialize session attribute com.vaadin.server.VaadinSession.com.vaadin.tutorial.addressbook.AddressbookUI$MyUIServlet for session 412B88669DCB307EE9397A6AFECC74DA
+java.io.NotSerializableException: com.vaadin.tutorial.addressbook.backend.ContactService
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.HashMap.internalWriteEntries(HashMap.java:1790)
+	at java.util.HashMap.writeObject(HashMap.java:1363)
+	at sun.reflect.GeneratedMethodAccessor48.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
+	at com.vaadin.server.VaadinSession.writeObject(VaadinSession.java:1447)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1708)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1106)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5470)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.core.StandardContext.reload(StandardContext.java:3820)
+	at org.apache.catalina.manager.ManagerServlet.reload(ManagerServlet.java:997)
+	at org.apache.catalina.manager.HTMLManagerServlet.reload(HTMLManagerServlet.java:607)
+	at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:211)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:136)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1502)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1458)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+11-Mar-2018 17:28:27.348 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/addressbook] is completed
+Mar 11, 2018 5:28:30 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+Mar 11, 2018 5:36:39 PM org.apache.catalina.session.StandardSession doWriteObject
+WARNING: Cannot serialize session attribute com.vaadin.server.VaadinSession.com.vaadin.tutorial.addressbook.AddressbookUI$MyUIServlet for session 412B88669DCB307EE9397A6AFECC74DA
+java.io.NotSerializableException: com.vaadin.tutorial.addressbook.backend.ContactService
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.HashMap.internalWriteEntries(HashMap.java:1790)
+	at java.util.HashMap.writeObject(HashMap.java:1363)
+	at sun.reflect.GeneratedMethodAccessor48.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
+	at com.vaadin.server.VaadinSession.writeObject(VaadinSession.java:1447)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1708)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1106)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5470)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.manager.ManagerServlet.undeploy(ManagerServlet.java:1389)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:361)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1502)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1458)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+11-Mar-2018 17:36:39.556 INFO [http-nio-8080-exec-81] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 17:36:39.747 INFO [http-nio-8080-exec-80] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+11-Mar-2018 17:36:40.237 INFO [http-nio-8080-exec-80] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 490 ms
+Mar 11, 2018 5:36:50 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+Mar 11, 2018 5:46:24 PM org.apache.catalina.session.StandardSession doWriteObject
+WARNING: Cannot serialize session attribute com.vaadin.server.VaadinSession.com.vaadin.tutorial.addressbook.AddressbookUI$MyUIServlet for session 9502ED122644154A7FE3032293B21748
+java.io.NotSerializableException: com.vaadin.tutorial.addressbook.backend.ContactService
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.HashMap.internalWriteEntries(HashMap.java:1790)
+	at java.util.HashMap.writeObject(HashMap.java:1363)
+	at sun.reflect.GeneratedMethodAccessor48.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
+	at com.vaadin.server.VaadinSession.writeObject(VaadinSession.java:1447)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1708)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1106)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5470)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.manager.ManagerServlet.undeploy(ManagerServlet.java:1389)
+	at org.apache.catalina.manager.ManagerServlet.doGet(ManagerServlet.java:361)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:622)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1502)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1458)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+11-Mar-2018 17:46:24.850 INFO [http-nio-8080-exec-85] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 17:46:24.998 INFO [http-nio-8080-exec-91] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+11-Mar-2018 17:46:25.445 INFO [http-nio-8080-exec-91] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 447 ms
+Mar 11, 2018 5:46:56 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+11-Mar-2018 17:46:59.789 INFO [http-nio-8080-exec-87] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 17:47:00.292 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 17:47:00.416 INFO [http-nio-8080-exec-91] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+11-Mar-2018 17:47:01.347 INFO [http-nio-8080-exec-91] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 931 ms
+11-Mar-2018 17:47:24.932 INFO [http-nio-8080-exec-86] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 17:47:25.074 INFO [http-nio-8080-exec-98] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+11-Mar-2018 17:47:25.573 INFO [http-nio-8080-exec-98] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 499 ms
+11-Mar-2018 17:49:05.547 INFO [http-nio-8080-exec-93] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 17:49:05.680 INFO [http-nio-8080-exec-104] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+11-Mar-2018 17:49:06.115 INFO [http-nio-8080-exec-104] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 435 ms
+Mar 11, 2018 5:49:38 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+Mar 11, 2018 6:00:56 PM org.apache.catalina.session.StandardSession doWriteObject
+WARNING: Cannot serialize session attribute com.vaadin.server.VaadinSession.com.vaadin.tutorial.addressbook.AddressbookUI$MyUIServlet for session 7527802AAECE9FEE14CBEA40613801E3
+java.io.NotSerializableException: com.vaadin.tutorial.addressbook.backend.ContactService
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.HashMap.internalWriteEntries(HashMap.java:1790)
+	at java.util.HashMap.writeObject(HashMap.java:1363)
+	at sun.reflect.GeneratedMethodAccessor48.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
+	at com.vaadin.server.VaadinSession.writeObject(VaadinSession.java:1447)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1708)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1106)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5470)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.manager.ManagerServlet.undeploy(ManagerServlet.java:1389)
+	at org.apache.catalina.manager.HTMLManagerServlet.undeploy(HTMLManagerServlet.java:626)
+	at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:213)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:136)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1502)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1458)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+11-Mar-2018 18:00:57.009 INFO [http-nio-8080-exec-113] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 18:48:18.203 INFO [http-nio-8080-exec-117] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook-2.0.war
+11-Mar-2018 18:48:18.669 INFO [http-nio-8080-exec-117] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook-2.0.war has finished in 466 ms
+Mar 11, 2018 6:48:23 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+Mar 11, 2018 9:47:02 PM org.apache.catalina.session.StandardSession doWriteObject
+WARNING: Cannot serialize session attribute com.vaadin.server.VaadinSession.com.vaadin.tutorial.addressbook.AddressbookUI$MyUIServlet for session 6CEBBA9E0C692DAC5388DF78A6378231
+java.io.NotSerializableException: com.vaadin.tutorial.addressbook.backend.ContactService
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.HashMap.internalWriteEntries(HashMap.java:1790)
+	at java.util.HashMap.writeObject(HashMap.java:1363)
+	at sun.reflect.GeneratedMethodAccessor48.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
+	at com.vaadin.server.VaadinSession.writeObject(VaadinSession.java:1447)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1708)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1106)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5470)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.manager.ManagerServlet.undeploy(ManagerServlet.java:1389)
+	at org.apache.catalina.manager.HTMLManagerServlet.undeploy(HTMLManagerServlet.java:626)
+	at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:213)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:136)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1502)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1458)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+11-Mar-2018 21:47:03.441 INFO [http-nio-8080-exec-116] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook-2.0]
+12-Mar-2018 16:28:10.593 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+12-Mar-2018 16:28:15.768 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+12-Mar-2018 16:28:15.771 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+12-Mar-2018 16:28:15.805 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+12-Mar-2018 16:28:15.862 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+12-Mar-2018 16:28:15.863 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+12-Mar-2018 16:28:15.864 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+OpenJDK 64-Bit Server VM warning: If the number of processors is expected to increase from one, then you should configure the number of parallel GC threads appropriately using -XX:ParallelGCThreads=N
+12-Mar-2018 18:18:49.736 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+12-Mar-2018 18:18:49.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+12-Mar-2018 18:18:49.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+12-Mar-2018 18:18:49.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+12-Mar-2018 18:18:49.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-693.17.1.el7.x86_64
+12-Mar-2018 18:18:49.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Mar-2018 18:18:49.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64/jre
+12-Mar-2018 18:18:49.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b14
+12-Mar-2018 18:18:49.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+12-Mar-2018 18:18:49.796 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat
+12-Mar-2018 18:18:49.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat
+12-Mar-2018 18:18:49.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/conf/logging.properties
+12-Mar-2018 18:18:49.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Mar-2018 18:18:49.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+12-Mar-2018 18:18:49.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.egd=file:/dev/./urandom
+12-Mar-2018 18:18:49.797 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms512M
+12-Mar-2018 18:18:49.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024M
+12-Mar-2018 18:18:49.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseParallelGC
+12-Mar-2018 18:18:49.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/opt/tomcat/endorsed
+12-Mar-2018 18:18:49.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat
+12-Mar-2018 18:18:49.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat
+12-Mar-2018 18:18:49.798 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/temp
+12-Mar-2018 18:18:49.798 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+12-Mar-2018 18:18:51.314 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+12-Mar-2018 18:18:51.456 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+12-Mar-2018 18:18:51.461 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+12-Mar-2018 18:18:51.467 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+12-Mar-2018 18:18:51.470 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 4821 ms
+12-Mar-2018 18:18:51.979 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+12-Mar-2018 18:18:51.980 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+12-Mar-2018 18:18:52.475 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/ROOT
+12-Mar-2018 18:18:53.690 INFO [localhost-startStop-1] org.apache.catalina.util.SessionIdGeneratorBase.createSecureRandom Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [246] milliseconds.
+12-Mar-2018 18:18:53.730 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/ROOT has finished in 1,259 ms
+12-Mar-2018 18:18:53.730 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/docs
+12-Mar-2018 18:18:53.842 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/docs has finished in 111 ms
+12-Mar-2018 18:18:53.842 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/examples
+12-Mar-2018 18:18:57.834 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/examples has finished in 3,992 ms
+12-Mar-2018 18:18:57.835 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/host-manager
+12-Mar-2018 18:18:57.952 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/host-manager has finished in 117 ms
+12-Mar-2018 18:18:57.952 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/manager
+12-Mar-2018 18:18:58.013 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/manager has finished in 61 ms
+12-Mar-2018 18:18:58.030 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+12-Mar-2018 18:18:58.056 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+12-Mar-2018 18:18:58.083 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 6613 ms
+12-Mar-2018 20:26:11.661 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+12-Mar-2018 20:26:13.028 INFO [http-nio-8080-exec-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2018 20:26:13.112 INFO [http-nio-8080-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 1,451 ms
+Mar 12, 2018 8:27:09 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+Mar 12, 2018 8:27:21 PM org.apache.catalina.session.StandardSession doWriteObject
+WARNING: Cannot serialize session attribute com.vaadin.server.VaadinSession.com.vaadin.tutorial.addressbook.AddressbookUI$MyUIServlet for session E50BC98BF29A4B64D22AB443E7E30EE7
+java.io.NotSerializableException: com.vaadin.tutorial.addressbook.backend.ContactService
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.HashMap.internalWriteEntries(HashMap.java:1790)
+	at java.util.HashMap.writeObject(HashMap.java:1363)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
+	at com.vaadin.server.VaadinSession.writeObject(VaadinSession.java:1447)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1708)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1106)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5470)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.manager.ManagerServlet.undeploy(ManagerServlet.java:1389)
+	at org.apache.catalina.manager.HTMLManagerServlet.undeploy(HTMLManagerServlet.java:626)
+	at org.apache.catalina.manager.HTMLManagerServlet.doPost(HTMLManagerServlet.java:213)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:648)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.CsrfPreventionFilter.doFilter(CsrfPreventionFilter.java:136)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1502)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1458)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Mar-2018 20:27:22.291 INFO [http-nio-8080-exec-8] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+12-Mar-2018 20:28:29.962 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+12-Mar-2018 20:28:30.675 INFO [http-nio-8080-exec-11] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2018 20:28:30.678 INFO [http-nio-8080-exec-11] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 717 ms
+12-Mar-2018 20:31:20.720 INFO [http-nio-8080-exec-12] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+12-Mar-2018 20:59:09.101 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+12-Mar-2018 20:59:09.783 INFO [http-nio-8080-exec-19] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2018 20:59:09.799 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 698 ms
+Mar 12, 2018 9:00:17 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+12-Mar-2018 21:10:10.003 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+Mar 12, 2018 9:10:10 PM org.apache.catalina.session.StandardSession doWriteObject
+WARNING: Cannot serialize session attribute com.vaadin.server.VaadinSession.com.vaadin.tutorial.addressbook.AddressbookUI$MyUIServlet for session AF2D2DFFE81F629FE44D48799FB5C976
+java.io.NotSerializableException: com.vaadin.tutorial.addressbook.backend.ContactService
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.HashMap.internalWriteEntries(HashMap.java:1790)
+	at java.util.HashMap.writeObject(HashMap.java:1363)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
+	at com.vaadin.server.VaadinSession.writeObject(VaadinSession.java:1447)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1708)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1106)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5470)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:827)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1395)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1303)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1610)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1451)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:724)
+	at org.apache.catalina.manager.ManagerServlet.doPut(ManagerServlet.java:423)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:651)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1502)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1458)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Mar-2018 21:10:10.445 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+12-Mar-2018 21:10:11.169 INFO [http-nio-8080-exec-19] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2018 21:10:11.172 INFO [http-nio-8080-exec-19] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 727 ms
+Mar 12, 2018 9:10:16 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+12-Mar-2018 21:13:32.465 INFO [http-nio-8080-exec-28] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+Mar 12, 2018 9:13:32 PM org.apache.catalina.session.StandardSession doWriteObject
+WARNING: Cannot serialize session attribute com.vaadin.server.VaadinSession.com.vaadin.tutorial.addressbook.AddressbookUI$MyUIServlet for session 89CA8A175ED049E7A4660E39B0F23F3E
+java.io.NotSerializableException: com.vaadin.tutorial.addressbook.backend.ContactService
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.HashMap.internalWriteEntries(HashMap.java:1790)
+	at java.util.HashMap.writeObject(HashMap.java:1363)
+	at sun.reflect.GeneratedMethodAccessor70.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
+	at com.vaadin.server.VaadinSession.writeObject(VaadinSession.java:1447)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1708)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1106)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5470)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:827)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1395)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1303)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1610)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1451)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:724)
+	at org.apache.catalina.manager.ManagerServlet.doPut(ManagerServlet.java:423)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:651)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1502)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1458)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Mar-2018 21:13:32.696 INFO [http-nio-8080-exec-28] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+12-Mar-2018 21:13:33.289 INFO [http-nio-8080-exec-28] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2018 21:13:33.292 INFO [http-nio-8080-exec-28] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 596 ms
+Mar 12, 2018 9:13:38 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================
+12-Mar-2018 21:44:43.368 INFO [http-nio-8080-exec-42] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+Mar 12, 2018 9:44:43 PM org.apache.catalina.session.StandardSession doWriteObject
+WARNING: Cannot serialize session attribute com.vaadin.server.VaadinSession.com.vaadin.tutorial.addressbook.AddressbookUI$MyUIServlet for session 524E0F44DDC364B3E62F8487135FDA42
+java.io.NotSerializableException: com.vaadin.tutorial.addressbook.backend.ContactService
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1184)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1509)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at java.util.HashMap.internalWriteEntries(HashMap.java:1790)
+	at java.util.HashMap.writeObject(HashMap.java:1363)
+	at sun.reflect.GeneratedMethodAccessor70.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.defaultWriteFields(ObjectOutputStream.java:1548)
+	at java.io.ObjectOutputStream.defaultWriteObject(ObjectOutputStream.java:441)
+	at com.vaadin.server.VaadinSession.writeObject(VaadinSession.java:1447)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at java.io.ObjectStreamClass.invokeWriteObject(ObjectStreamClass.java:1128)
+	at java.io.ObjectOutputStream.writeSerialData(ObjectOutputStream.java:1496)
+	at java.io.ObjectOutputStream.writeOrdinaryObject(ObjectOutputStream.java:1432)
+	at java.io.ObjectOutputStream.writeObject0(ObjectOutputStream.java:1178)
+	at java.io.ObjectOutputStream.writeObject(ObjectOutputStream.java:348)
+	at org.apache.catalina.session.StandardSession.doWriteObject(StandardSession.java:1708)
+	at org.apache.catalina.session.StandardSession.writeObjectData(StandardSession.java:1106)
+	at org.apache.catalina.session.StandardManager.doUnload(StandardManager.java:315)
+	at org.apache.catalina.session.StandardManager.unload(StandardManager.java:265)
+	at org.apache.catalina.session.StandardManager.stopInternal(StandardManager.java:384)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.core.StandardContext.stopInternal(StandardContext.java:5470)
+	at org.apache.catalina.util.LifecycleBase.stop(LifecycleBase.java:224)
+	at org.apache.catalina.core.ContainerBase.removeChild(ContainerBase.java:827)
+	at org.apache.catalina.startup.HostConfig.undeploy(HostConfig.java:1395)
+	at org.apache.catalina.startup.HostConfig.checkResources(HostConfig.java:1303)
+	at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1610)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.apache.tomcat.util.modeler.BaseModelMBean.invoke(BaseModelMBean.java:300)
+	at com.sun.jmx.interceptor.DefaultMBeanServerInterceptor.invoke(DefaultMBeanServerInterceptor.java:819)
+	at com.sun.jmx.mbeanserver.JmxMBeanServer.invoke(JmxMBeanServer.java:801)
+	at org.apache.catalina.manager.ManagerServlet.check(ManagerServlet.java:1451)
+	at org.apache.catalina.manager.ManagerServlet.deploy(ManagerServlet.java:724)
+	at org.apache.catalina.manager.ManagerServlet.doPut(ManagerServlet.java:423)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:651)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:729)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:292)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.filters.SetCharacterEncodingFilter.doFilter(SetCharacterEncodingFilter.java:108)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:240)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:207)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:212)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:106)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:614)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:141)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:79)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:616)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:88)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:522)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1095)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:672)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1502)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.run(NioEndpoint.java:1458)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+
+12-Mar-2018 21:44:43.650 INFO [http-nio-8080-exec-42] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+12-Mar-2018 21:44:44.197 INFO [http-nio-8080-exec-42] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+12-Mar-2018 21:44:44.200 INFO [http-nio-8080-exec-42] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 550 ms
+Mar 12, 2018 9:48:40 PM com.vaadin.server.DefaultDeploymentConfiguration checkProductionMode
+WARNING: 
+=================================================================
+Vaadin is running in DEBUG MODE.
+Add productionMode=true to web.xml to disable debug features.
+To show debug window, add ?debug to your application URL.
+=================================================================

@@ -1,0 +1,13 @@
+{
+  "name": "rkbsme-tomcat",
+  "version": "0.1.0",
+  "author": "Ramakrishna Bejjanki",
+  "summary": "Install and Configure Tomcat server",
+  "license": "Apache 2.0",
+  "source": "rkbsme",
+  "project_page": "rkbsme",
+  "issues_url": "rkbsme@gmail.com",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ]
+}

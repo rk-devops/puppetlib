@@ -1,0 +1,15 @@
+10.10.10.1 - - [13/Mar/2018:00:03:46 +0530] "POST /addressbook/HEARTBEAT/?v-uiId=0 HTTP/1.1" 200 -
+10.10.10.1 - - [13/Mar/2018:00:08:46 +0530] "POST /addressbook/HEARTBEAT/?v-uiId=0 HTTP/1.1" 200 -
+10.10.10.1 - - [13/Mar/2018:00:09:36 +0530] "GET /addressbook/ HTTP/1.1" 200 2164
+10.10.10.1 - - [13/Mar/2018:00:09:36 +0530] "GET /addressbook/VAADIN/vaadinBootstrap.js?v=8.0.0.alpha2 HTTP/1.1" 200 3662
+10.10.10.1 - - [13/Mar/2018:00:09:36 +0530] "GET /addressbook/VAADIN/themes/valo/styles.css?v=8.0.0.alpha2 HTTP/1.1" 200 31378
+10.10.10.1 - - [13/Mar/2018:00:09:36 +0530] "GET /addressbook/VAADIN/widgetsets/com.vaadin.v7.Vaadin7WidgetSet/com.vaadin.v7.Vaadin7WidgetSet.nocache.js?1520879976710 HTTP/1.1" 200 3265
+10.10.10.1 - - [13/Mar/2018:00:09:36 +0530] "GET /addressbook/VAADIN/themes/valo/shared/img/spinner.gif HTTP/1.1" 200 7194
+10.10.10.1 - - [13/Mar/2018:00:09:37 +0530] "POST /addressbook/?v-1520879976712 HTTP/1.1" 200 8740
+10.10.10.1 - - [13/Mar/2018:00:09:37 +0530] "GET /addressbook/VAADIN/widgetsets/com.vaadin.v7.Vaadin7WidgetSet/254B4FEDB43D00FE432E78151B19FD4D.cache.js HTTP/1.1" 200 417820
+10.10.10.1 - - [13/Mar/2018:00:09:42 +0530] "POST /addressbook/UIDL/?v-uiId=1 HTTP/1.1" 200 3175
+10.10.10.1 - - [13/Mar/2018:00:14:01 +0530] "POST /addressbook/UIDL/?v-uiId=1 HTTP/1.1" 200 159
+10.10.10.1 - - [13/Mar/2018:00:14:02 +0530] "POST /addressbook/UIDL/?v-uiId=1 HTTP/1.1" 200 158
+10.10.10.1 - - [13/Mar/2018:00:14:39 +0530] "POST /addressbook/HEARTBEAT/?v-uiId=1 HTTP/1.1" 200 -
+10.10.10.1 - - [13/Mar/2018:00:19:39 +0530] "POST /addressbook/HEARTBEAT/?v-uiId=1 HTTP/1.1" 200 -
+10.10.10.1 - - [13/Mar/2018:00:24:39 +0530] "POST /addressbook/HEARTBEAT/?v-uiId=1 HTTP/1.1" 200 -

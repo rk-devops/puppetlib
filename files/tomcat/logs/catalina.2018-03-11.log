@@ -1,0 +1,142 @@
+11-Mar-2018 06:37:49.961 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+11-Mar-2018 06:37:50.016 INFO [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+11-Mar-2018 06:37:50.067 INFO [Thread-5] org.apache.catalina.core.StandardService.stopInternal Stopping service Catalina
+11-Mar-2018 06:37:50.148 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+11-Mar-2018 06:37:50.150 INFO [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+11-Mar-2018 06:37:50.151 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+11-Mar-2018 06:37:50.156 INFO [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+11-Mar-2018 16:07:51.341 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+11-Mar-2018 16:07:51.342 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+11-Mar-2018 16:07:51.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+11-Mar-2018 16:07:51.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Mar-2018 16:07:51.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-693.17.1.el7.x86_64
+11-Mar-2018 16:07:51.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Mar-2018 16:07:51.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64/jre
+11-Mar-2018 16:07:51.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b14
+11-Mar-2018 16:07:51.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Mar-2018 16:07:51.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat
+11-Mar-2018 16:07:51.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat
+11-Mar-2018 16:07:51.343 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/conf/logging.properties
+11-Mar-2018 16:07:51.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Mar-2018 16:07:51.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+11-Mar-2018 16:07:51.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.egd=file:/dev/./urandom
+11-Mar-2018 16:07:51.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms512M
+11-Mar-2018 16:07:51.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024M
+11-Mar-2018 16:07:51.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseParallelGC
+11-Mar-2018 16:07:51.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/opt/tomcat/endorsed
+11-Mar-2018 16:07:51.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat
+11-Mar-2018 16:07:51.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat
+11-Mar-2018 16:07:51.344 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/temp
+11-Mar-2018 16:07:51.344 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11-Mar-2018 16:07:51.577 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Mar-2018 16:07:51.610 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Mar-2018 16:07:51.621 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Mar-2018 16:07:51.623 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Mar-2018 16:07:51.624 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1053 ms
+11-Mar-2018 16:07:51.680 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Mar-2018 16:07:51.680 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+11-Mar-2018 16:07:53.056 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.0.33
+11-Mar-2018 16:07:53.057 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Mar 18 2016 20:31:49 UTC
+11-Mar-2018 16:07:53.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.0.33.0
+11-Mar-2018 16:07:53.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Mar-2018 16:07:53.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.10.0-693.17.1.el7.x86_64
+11-Mar-2018 16:07:53.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Mar-2018 16:07:53.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-1.8.0-openjdk-1.8.0.161-0.b14.el7_4.x86_64/jre
+11-Mar-2018 16:07:53.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_161-b14
+11-Mar-2018 16:07:53.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+11-Mar-2018 16:07:53.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /opt/tomcat
+11-Mar-2018 16:07:53.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /opt/tomcat
+11-Mar-2018 16:07:53.058 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/opt/tomcat/conf/logging.properties
+11-Mar-2018 16:07:53.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Mar-2018 16:07:53.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.awt.headless=true
+11-Mar-2018 16:07:53.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.security.egd=file:/dev/./urandom
+11-Mar-2018 16:07:53.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xms512M
+11-Mar-2018 16:07:53.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Xmx1024M
+11-Mar-2018 16:07:53.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -XX:+UseParallelGC
+11-Mar-2018 16:07:53.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.endorsed.dirs=/opt/tomcat/endorsed
+11-Mar-2018 16:07:53.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/opt/tomcat
+11-Mar-2018 16:07:53.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/opt/tomcat
+11-Mar-2018 16:07:53.059 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/opt/tomcat/temp
+11-Mar-2018 16:07:53.059 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+11-Mar-2018 16:07:53.297 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+11-Mar-2018 16:07:53.322 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Mar-2018 16:07:53.338 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+11-Mar-2018 16:07:53.339 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+11-Mar-2018 16:07:53.351 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1065 ms
+11-Mar-2018 16:07:53.397 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+11-Mar-2018 16:07:53.397 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.0.33
+11-Mar-2018 16:07:53.412 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/ROOT
+11-Mar-2018 16:07:53.962 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/ROOT has finished in 549 ms
+11-Mar-2018 16:07:53.962 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/docs
+11-Mar-2018 16:07:53.990 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/docs has finished in 28 ms
+11-Mar-2018 16:07:53.990 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/examples
+11-Mar-2018 16:07:54.481 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/examples has finished in 491 ms
+11-Mar-2018 16:07:54.481 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/host-manager
+11-Mar-2018 16:07:54.513 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/host-manager has finished in 32 ms
+11-Mar-2018 16:07:54.513 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/manager
+11-Mar-2018 16:07:54.819 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/manager has finished in 306 ms
+11-Mar-2018 16:07:54.830 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+11-Mar-2018 16:07:54.839 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+11-Mar-2018 16:07:54.840 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 1488 ms
+11-Mar-2018 16:11:00.077 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/mywebapp1.war
+11-Mar-2018 16:11:01.285 INFO [http-nio-8080-exec-9] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Mar-2018 16:11:01.290 INFO [http-nio-8080-exec-9] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/mywebapp1.war has finished in 1,213 ms
+11-Mar-2018 16:11:59.141 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+11-Mar-2018 16:11:59.902 INFO [http-nio-8080-exec-4] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+11-Mar-2018 16:11:59.905 INFO [http-nio-8080-exec-4] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 765 ms
+11-Mar-2018 16:12:29.868 INFO [28] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/mywebapp1]
+11-Mar-2018 16:15:55.417 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context []
+11-Mar-2018 16:15:55.921 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 16:15:56.425 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/examples]
+11-Mar-2018 16:15:56.929 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/host-manager]
+11-Mar-2018 16:15:57.434 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+11-Mar-2018 16:15:57.940 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/docs]
+11-Mar-2018 16:17:07.949 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+11-Mar-2018 16:17:08.670 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 722 ms
+11-Mar-2018 16:17:08.688 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/ROOT
+11-Mar-2018 16:17:08.698 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/ROOT has finished in 11 ms
+11-Mar-2018 16:17:08.698 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/docs
+11-Mar-2018 16:17:08.721 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/docs has finished in 23 ms
+11-Mar-2018 16:17:08.721 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/examples
+11-Mar-2018 16:17:08.946 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/examples has finished in 225 ms
+11-Mar-2018 16:17:08.946 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/host-manager
+11-Mar-2018 16:17:08.973 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/host-manager has finished in 27 ms
+11-Mar-2018 16:17:08.973 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /opt/tomcat/webapps/manager
+11-Mar-2018 16:17:09.013 INFO [localhost-startStop-2] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /opt/tomcat/webapps/manager has finished in 40 ms
+11-Mar-2018 16:18:18.022 INFO [44] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 16:18:18.367 INFO [http-nio-8080-exec-24] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+11-Mar-2018 16:18:19.044 INFO [46] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 676 ms
+11-Mar-2018 16:43:24.908 INFO [54] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 16:43:25.104 INFO [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+11-Mar-2018 16:43:25.735 INFO [http-nio-8080-exec-31] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 631 ms
+11-Mar-2018 16:55:14.240 INFO [70] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 16:55:14.434 INFO [http-nio-8080-exec-49] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+11-Mar-2018 16:55:15.045 INFO [http-nio-8080-exec-49] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 610 ms
+11-Mar-2018 16:55:34.206 INFO [72] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 16:57:18.670 INFO [http-nio-8080-exec-59] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+11-Mar-2018 16:57:19.145 INFO [http-nio-8080-exec-59] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 474 ms
+11-Mar-2018 17:27:44.740 INFO [80] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 17:27:44.863 INFO [http-nio-8080-exec-59] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+11-Mar-2018 17:27:45.516 INFO [http-nio-8080-exec-59] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 652 ms
+11-Mar-2018 17:28:26.142 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/addressbook] has started
+11-Mar-2018 17:28:27.348 INFO [http-nio-8080-exec-68] org.apache.catalina.core.StandardContext.reload Reloading Context with name [/addressbook] is completed
+11-Mar-2018 17:36:39.556 INFO [103] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 17:36:39.747 INFO [http-nio-8080-exec-80] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+11-Mar-2018 17:36:40.237 INFO [http-nio-8080-exec-80] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 490 ms
+11-Mar-2018 17:46:24.850 INFO [107] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 17:46:24.998 INFO [http-nio-8080-exec-91] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+11-Mar-2018 17:46:25.445 INFO [http-nio-8080-exec-91] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 447 ms
+11-Mar-2018 17:46:59.789 INFO [http-nio-8080-exec-87] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 17:47:00.292 INFO [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 17:47:00.416 INFO [http-nio-8080-exec-91] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+11-Mar-2018 17:47:01.347 INFO [113] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 931 ms
+11-Mar-2018 17:47:24.932 INFO [http-nio-8080-exec-86] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 17:47:25.074 INFO [http-nio-8080-exec-98] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+11-Mar-2018 17:47:25.573 INFO [120] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 499 ms
+11-Mar-2018 17:49:05.547 INFO [115] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 17:49:05.680 INFO [http-nio-8080-exec-104] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook.war
+11-Mar-2018 17:49:06.115 INFO [http-nio-8080-exec-104] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook.war has finished in 435 ms
+11-Mar-2018 18:00:57.009 INFO [135] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook]
+11-Mar-2018 18:48:18.203 INFO [http-nio-8080-exec-117] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive /opt/tomcat/webapps/addressbook-2.0.war
+11-Mar-2018 18:48:18.669 INFO [http-nio-8080-exec-117] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive /opt/tomcat/webapps/addressbook-2.0.war has finished in 466 ms
+11-Mar-2018 21:47:03.441 INFO [138] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/addressbook-2.0]
