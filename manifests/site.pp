@@ -5,9 +5,9 @@ node 'wslinux01.rkad.com' {
 #        include rkbsme-tomcat
 #        include rkbsme-ntp
 #	 include maven
-#	 include rkbsme-java
-#	 include rkbsme-tomcat
+	 include rkbsme-java
+	 include rkbsme-tomcat
 	 include rkbsme-docker
-         include rkbsme-jenkins
+#         include rkbsme-jenkins
 }
 
